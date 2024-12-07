@@ -138,9 +138,93 @@
 
 /* TECHNOLOGY SECTION STARTS */
 
-
-
+.tech-content{
+    text-align: center;
+}
+.tech-content h4{
+    color: var(--button-color);
+}
+.tech-content h1{
+    padding: 10px 0px 0px 0px ;
+    color: var(--text-color);
+    font-size: 38px;
+}
+.tech-img{
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+    align-items: center;
+}
 .tech-img img{
     
     width: 116px;
+}
+.fill{
+    padding: 10px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+#fill{
+    background-color: var(--button-color);
+}
+.fill div{
+    
+    height: 12px;
+    width: 12px;
+    border: 1px solid var(--button-color);
+    border-radius: 50%;
+}
+
+/*  TECHNOLOGY SECTION ENDS   */
+
+/* SERVICES SECTION STARTS */
+.main-serv{
+    
+}
+.serv-cards{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 50px 0px 0px 0px ;
+    padding: 0px 0px 100px 100px;
+}
+.serv-content h4{
+    text-align: center;
+    color: var(--button-color);
+}
+.serv-content h1{
+    text-align: center;
+    margin-top: 20px;
+    color: var(--text-color);
+}
+.card1{
+    width: 350px;
+    height: 300px;
+    padding: 60px 30px;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    text-align: center;
+    border-bottom: 3px solid #2db6f2;
+}
+.card1 h1{
+    margin-top: 20px;
+    font-size: 28px;
+    color: #444444;
+}
+.card1 p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #444444;
+}
+.massage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #dbf3fe;
+    margin-left: 150px;
+    width: 76px;
+    height: 80px;
 }
