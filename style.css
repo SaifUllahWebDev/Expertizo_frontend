@@ -1,7 +1,8 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
 }
 /* MAKING COLOR VARIABLES */
 
@@ -227,4 +228,246 @@
     margin-left: 150px;
     width: 76px;
     height: 80px;
+}
+/* SERVIVES SECTION ENDS */
+
+/* CORE VALUES SECTION STARTS */
+
+.main-value{
+    padding: 50px 0px 100px 100px;
+}
+.value-content h4{
+    text-align: center;
+    color: var(--button-color);
+
+}
+.value-content h1{
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    color: var(--text-color);
+}
+.value-img img{
+    padding: 50px 0px 0px 0px;
+    width: 636px;
+    height: 404px;
+}
+.value-items{
+    display: flex;
+    
+}
+.core-values{
+    width: 660px;
+    height: 405px;
+    padding: 80px 0px 0px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.core-values h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 70px 0px 0px;
+    width: 200px;
+    height: 80px;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    
+}
+.core-values i{
+    background-color: #ecf3ff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-right: 15px;
+    
+}
+
+/* CORE VALUES SECTION ENDS */
+
+/* PORTFOLIO SECTION STARTS  */
+.main-portfolio{
+    padding: 0px 0px 100px 100px;
+}
+
+
+.portfolio-cards img{
+    margin: 50px 30px 0px 0px;
+    width: 415px;
+    height: 415px;
+    border: 1px solid #DEE2E6;
+}
+.portfolio-text{
+    text-align: center;
+}
+.portfolio-text h4{
+    color: var(--button-color);
+}
+.portfolio-text h1{
+    color: var(--text-color);
+    font-size: 38px;
+    padding-top: 20px;
+}
+.option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 30px 0px 0px 0px;
+}
+
+.option a{
+    text-decoration: none;
+    font-weight: 600;
+}
+#all{
+    border: 1px solid var(--button-color);
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+/* PORFOLIO SECTION ENDS  */
+
+/* RECOMMENDATION SECTION STARTS  */
+
+.main-recom{
+    padding: 0px 0px 100px 100px;
+}
+
+.recom-content h4{
+    color: var(--button-color);
+    text-align: center;
+}
+.recom-content h1{
+    color: var(--text-color);
+    padding-top: 10px;
+    text-align: center;
+}
+.card-1{
+    padding: 30px;
+    text-align: center;
+    width: 350px;
+    height: 400px;
+    box-shadow: 0px 0 20px rgba(1, 41, 112, 0.1);;
+}
+.card-1 p{
+    font-size: 16px;
+    line-height: 25px;
+    padding: 30px 0px 0px 0px;
+    min-height: 150px;
+}
+.review-cards img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.review-cards{
+    padding: 100px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card-1 h4{
+    margin-top: 10px;
+    color: #DEE2E6;
+}
+.card-1 h3{
+    padding-top: 10px;
+}
+#freelancer{
+    width: 325px;
+    height: 350px;
+    opacity: .5;
+}
+#ceo{
+    width: 325px;
+    height: 350px;
+    opacity: .5;
+}
+.reviews{
+    padding-bottom: 50px;
+}
+/* RECOMMENDATION SECTION ENDS */
+
+/* CAREER SECTON STARTS  */
+.main-career{
+    padding: 0px 0px 100px 0px;
+}
+.card-one{
+    width: 420px;
+    height: 690px;
+    margin: 50px 0px 0px 100px;
+    box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+    text-align: center;
+}
+.card-one img{
+    padding: 30px 50px;
+    width: 350px;
+    height: 295px;
+}
+.career-content h4{
+    text-align: center;
+    color: var(--button-color);
+}
+.career-content h1{
+    text-align: center;
+    color: var(--text-color);
+}
+.card-one p{
+    padding: 30px 20px 0px 20px;
+    min-height: 200px;
+}
+.card-one h2{
+    color: var(--text-color);
+    padding-bottom: 10px;
+}
+.card-one span{
+    background-color: #0D6EFD;
+    color: white ;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.card-one a{
+    text-decoration: none;
+    color: var(--button-color);
+}
+.career-card{
+    display: flex;
+}
+
+/* CAEREER SECTION ENDS */
+
+/* CONTACT SECTION STARTS  */
+
+.main-contact{
+    padding: 0px 0px 100px 0px;
+}
+.address{
+    width: 305px;
+    height: 180px;
+    padding: 30px;
+    font-size: 20px;
+    background-color: #FAFBFF;
+}
+.contact-content h4{
+    color: var(--button-color);
+    text-align: center;
+}
+.contact-content h1{
+    color: var(--text-color);
+    padding-top: 20px;
+    text-align: center;
+}
+.contact-form{
+    padding: 30px 0px 0px 100px;
+}
+.address i{
+    font-size: 40px;
+    padding: 20px;
+    
+}
+.address h3{
+    color: var(--text-color);
+    padding: 20px 0px;
 }
