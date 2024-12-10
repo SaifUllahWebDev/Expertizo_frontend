@@ -75,6 +75,24 @@
     margin-left: 3px;
     margin-top: 3px;
 }
+@media (max-width: 1000px) {
+    .nav-bar{
+        position: static;
+    }
+    .nav-items{
+        flex-direction: column;
+    }
+    
+}
+@media (max-width: 650px){
+    .nav-links{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-container{
+        margin-top: 250px;
+    }
+}
 
   
 /* HEADER SECTION CSS ENDS  */
@@ -218,7 +236,7 @@
     right: 0px;
 }
 
-/* MEDIA QUERY FOR 1410PX */
+/* MEDIA QUERY FOR 1410PX AND 768PX*/
 
 @media screen and (max-width: 1410px) {
     .about-content {
@@ -249,6 +267,44 @@
         right: 0;
     }
 }
+@media screen and (max-width: 768px) {
+    .main-about {
+        padding: 20px 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-content {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .about-content h4 {
+        font-size: 18px;
+    }
+
+    .about-content h1 {
+        font-size: 24px;
+    }
+
+    .about-text {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: justify;
+    }
+
+    .about-img {
+        margin: 20px 0;
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .about-img img {
+        width: 100%;
+        height: auto;
+    }
+}
+
 
 /* ABOUT SECTION ENDS */
 
@@ -317,6 +373,50 @@
     .fill div {
         height: 10px;
         width: 10px;
+    }
+}
+/* MEDIA QUERY FOR 768PX */
+@media screen and (max-width: 768px) {
+    .main-technology {
+        padding: 20px 10px;
+    }
+
+    .tech-content h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .tech-content h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .tech-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .tech-card {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .tech-card img {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto;
+    }
+
+    .tech-card h2 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .tech-card p {
+        font-size: 14px;
     }
 }
 
@@ -400,6 +500,46 @@
 #space:hover{
     background-color: #F51F9C;
 }
+@media screen and (max-width: 768px) {
+    .main-services {
+        padding: 20px 10px;
+    }
+
+    .services-content h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .services-content h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .services-cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .service-card {
+        width: 90%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .service-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .service-card h2 {
+        font-size: 18px;
+    }
+
+    .service-card p {
+        font-size: 14px;
+    }
+}
+
 /* SERVIVES SECTION ENDS */
 
 /* CORE VALUES SECTION STARTS */
@@ -455,6 +595,37 @@
 }
 .core-values h3:hover i{
     background-color: #4154F1;
+}
+
+/* MEDIA QUERY FOR 1410PX */
+@media screen and (max-width: 1410px) {
+    .main-value {
+        padding: 50px 20px;
+    }
+
+    .value-img img {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .value-items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .core-values {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+        gap: 15px;
+    }
+
+    .core-values h3 {
+        width: 100%;
+        max-width: 280px;
+        padding: 0;
+    }
 }
 
 /* CORE VALUES SECTION ENDS */
@@ -543,6 +714,46 @@
     background-color: white;
     opacity: .7;
 }
+@media screen and (max-width: 768px) {
+    .portfolio-content {
+        padding: 20px;
+    }
+
+    .portfolio-content h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .portfolio-content h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .portfolio-cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card {
+        width: 90%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card h2 {
+        font-size: 18px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+}
+
 
 /* PORFOLIO SECTION ENDS  */
 
@@ -607,6 +818,37 @@
 .reviews{
     padding-bottom: 50px;
 }
+/* MEDIA QUERY FOR 1410PX */
+@media screen and (max-width: 1410px) {
+    .main-recom {
+        padding: 20px;
+    }
+
+    .review-cards {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-top: 50px;
+    }
+
+    .card-1 {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .card-1 p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 20px;
+    }
+
+    .review-cards img {
+        height: 80px;
+        width: 80px;
+    }
+}
+
 /* RECOMMENDATION SECTION ENDS */
 
 /* CAREER SECTON STARTS  */
@@ -661,6 +903,98 @@
 .career-card{
     display: flex;
 }
+/* MEDIA QUERY FOR 1410PX AND 768PX*/
+@media screen and (max-width: 1410px) {
+    .main-career {
+        padding: 20px;
+    }
+
+    .career-card {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .card-one {
+        width: 100%;
+        max-width: 380px;
+        margin: 20px 0;
+        height: auto;
+    }
+
+    .card-one img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .card-one p {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .card-one h2 {
+        font-size: 18px;
+    }
+
+    .card-one span {
+        font-size: 12px;
+        padding: 3px 8px;
+    }
+
+    .card-one a {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main-career {
+        padding: 20px 10px;
+    }
+
+    .career-content h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .career-content h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .career-card {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card-one {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .card-one img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-one p {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .card-one h2 {
+        font-size: 18px;
+    }
+
+    .card-one span {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}
+
 
 /* CAEREER SECTION ENDS */
 
@@ -744,6 +1078,118 @@ textarea::placeholder{
     background-color: var(--button-color) ;
     margin-left: 200px;
 }
+/* MEDIA QUERY FOR 1410PX AND 768*/
+@media screen and (max-width: 1410px) {
+    .main-contact {
+        padding: 20px;
+    }
+
+    .contact-form {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .form-des {
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .address {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .address i {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .address h3 {
+        font-size: 16px;
+    }
+
+    .address p {
+        font-size: 14px;
+    }
+
+    .form {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .form input,
+    .form textarea {
+        width: calc(100% - 20px);
+        margin: 10px auto;
+    }
+
+    #email {
+        margin-left: 0;
+    }
+
+    .form button {
+        display: block;
+        margin: 20px auto 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main-contact {
+        padding: 20px 10px;
+    }
+
+    .contact-content h4 {
+        font-size: 18px;
+    }
+
+    .contact-content h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .contact-form {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .form-des {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .address {
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .form {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .form input, .form textarea {
+        width: 100%;
+    }
+
+    .form button {
+        width: 100%;
+        max-width: 150px;
+        margin: 20px auto 0;
+    }
+}
+
 /* CONTACT SECTION ENDS */
 
 /* NEWSLETTER SECTION STARTS */
@@ -842,4 +1288,194 @@ input:active{
 }
 #exper{
     color: var(--button-color);
+}
+
+@media screen and (max-width: 1410px) {
+    .main-news {
+        padding: 20px;
+    }
+
+    .newsletter {
+        height: auto;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .newsletter h3 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .news-input {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .news-input input {
+        width: 100%;
+        max-width: 400px;
+        height: 40px;
+    }
+
+    .news-input button {
+        width: 100%;
+        max-width: 200px;
+        height: 40px;
+    }
+
+    /* Footer Section */
+    .main-footer {
+        padding: 20px;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .footer-des {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .footer-des img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .footer-des p {
+        width: 100%;
+        max-width: 600px;
+        margin: 20px auto;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .footer-item, .footer-link, .footer-contact {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .footer-item h3, .footer-link h3, .footer-contact h3 {
+        font-size: 18px;
+    }
+
+    .footer-content a {
+        font-size: 14px;
+    }
+
+    .footer-contact p {
+        font-size: 14px;
+    }
+
+    /* Copyright Section */
+    .copyright {
+        padding: 30px 20px;
+    }
+
+    .copyright p {
+        font-size: 14px;
+    }
+}
+/* FOOTER MEDIA QUERY 768PX */
+
+@media screen and (max-width: 768px) {
+    .main-news {
+        padding: 15px;
+    }
+
+    .newsletter {
+        height: auto;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .newsletter h3 {
+        font-size: 18px;
+        padding-top: 15px;
+    }
+
+    .news-input {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .news-input input {
+        width: 100%;
+        max-width: 300px;
+        height: 35px;
+    }
+
+    .news-input button {
+        width: 100%;
+        max-width: 150px;
+        height: 40px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-footer {
+        padding: 10px 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footer-des {
+        padding: 10px 0;
+    }
+
+    .footer-des img {
+        margin: 0 auto;
+        width: 120px;
+        height: auto;
+    }
+
+    .footer-des p {
+        font-size: 13px;
+        line-height: 18px;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .footer-item, .footer-link, .footer-contact {
+        margin: 10px auto;
+    }
+
+    .footer-item h3, .footer-link h3, .footer-contact h3 {
+        font-size: 16px;
+    }
+
+    .footer-content a {
+        font-size: 13px;
+    }
+
+    .footer-contact p {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .copyright {
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .copyright p {
+        font-size: 13px;
+    }
+
+    #ex, #exper {
+        font-size: 14px;
+    }
 }
