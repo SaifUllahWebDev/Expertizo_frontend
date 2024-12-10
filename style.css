@@ -694,6 +694,9 @@
     
     opacity: 0;
 }
+.hov p{
+    padding: 20px;
+}
 .hov h2{
     color: var(--text-color);
 }
